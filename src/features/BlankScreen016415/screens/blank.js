@@ -26,20 +26,7 @@ export default class Blank extends React.Component {
 
   state = {}
 
-  render = () => (
-    <View>
-      <View />
-      <View />
-      <View />
-      <View />
-    </View>
-  )
+  render = () => <View />
 }
 
-const styles = StyleSheet.create({
-  View_1: {},
-  View_2: {},
-  View_3: {},
-  View_4: {},
-  View_5: {}
-})
+const styles = StyleSheet.create({ View_1: {} })
